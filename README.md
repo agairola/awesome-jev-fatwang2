@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-185 projects.
+181 projects.
 
 ### SDKs
 
@@ -100,12 +100,8 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jev-belay](https://github.com/valentynkit/jev-belay) — Claude Code Stop hook that checks the transcript for evidence before trusting a "done" claim, spending one four-question Jev call only when files changed with no passing check since, and failing open on every error path\.
 - [jev-code](https://github.com/devagrawal09/jev-code) — jev-code is a command-line toolkit that coding agents can delegate judgment-heavy work to\.
 - [jev-commit](https://github.com/valentynkit/jev-commit) — Pre-commit hook where one Jev call judges whether the commit message matches the staged diff, flags debug leftovers and unmentioned work, and blocks only when it detects a credential\.
-- [jev-curate](https://github.com/AkashPriyadarshii/jev-curate) — Synthetic dataset sifter that streams JSONL and Parquet rows through TypeSafe Jev Noul checks to disk\.
-- [jev-git](https://github.com/AkashPriyadarshii/jev-git) — Sub-second Git pre-commit and pre-push reflex gate that screens staged diffs for secrets and destructive commands using TypeSafe Jev\.
 - [jev-pref](https://github.com/doeixd/jev-pref) — CLI that turns project preferences from agent instruction files into jev-pref\.json rules and uses TypeSafe Jev to review code hunks, staged files, or pull requests against them, returning findings to coding agents\.
 - [jev-review](https://github.com/NiazMorshed2007/jev-review) — Local-first MCP plugin for continuous software-quality review by AI coding agents, powered by Jev\.
-- [jev-scout](https://github.com/AkashPriyadarshii/jev-scout) — Zero-hallucination open-source repo and crate scout powered by TypeSafe AI Jev System One scoring\.
-- [jev-superpowers](https://github.com/AkashPriyadarshii/jev-superpowers) — Systematic software development framework for AI coding agents upgraded with TypeSafe Jev System One typed decisions, zero-hallucination package vetting, and completion gates\.
 - [jev\.nvim](https://github.com/valentynkit/jev.nvim) — Neovim plugin that splits the buffer into functions with Treesitter, scores each against a plain-language question with Jev, and ranks answers by probability in the quickfix window\.
 - [jevkit](https://github.com/ariel-frischer/jevkit) — jevkit is a Rust CLI for TypeSafe Jev that validates Choice, Score, and Noul question sets with 13 offline lint rules before sending the request to the /api/alpha/decisions endpoint and prints the parsed answers as JSON\.
 - [Jevonian](https://github.com/xinyao27/jevonian) — Local OpenAI- and Anthropic-compatible proxy that asks one Jev call to pick both the model route and the thinking level for jevonian/auto, after deterministic code has filtered candidates by protocol, context window, effort floor, and spent quota windows, and after pinning a real model ID or requesting jevonian/&lt;route&gt; skips Jev entirely\.
@@ -117,6 +113,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [progressgate](https://github.com/AshutoshVJTI/progressgate) — It's a small deterministic policy sitting on top of TypeSafe Jev semantic judgments — Jev reads the trajectory, code decides what to do about it\.
 - [SemDecide](https://github.com/sharziki/semdecide) — CLI that uses TypeSafe Jev for semantic predicates, classification, scoring, and filtering in Unix pipelines\.
 - [slop-grader](https://github.com/lukstei/slop-grader) — Rule-based CLI and agent skill that grades text and markdown files against custom rulesets using TypeSafe Jev, guiding an AI agent to auto-fix violations\.
+- [strayguard](https://github.com/Eve2512/Strayguard) — Git pre-commit hook that asks TypeSafe Jev one Choice question per newly added file and flags scratch scripts, output dumps, build output and local-only files before they are committed\.
 - [Supercov](https://github.com/supercorp-ai/supercov) — Code quality and coverage CLI for coding agents that uses TypeSafe Jev to assess source-code quality\.
 - [TypeSafe AI Playground](https://github.com/markjaquith/typesafe-ai-playground) — Rust CLI with TypeSafe Jev experiments for PHI detection, code-comment review, tone analysis, and classification\.
 - [Winnow](https://github.com/GhalebDweikat/winnow) — Claude Code tool-output filter that uses TypeSafe Jev to judge which blocks are relevant to the current task\.
@@ -147,7 +144,6 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [Jev Chat Assistant Keyboard for iOS](https://github.com/jev-chat/jev-chat-jarvis-ios) — iOS custom-keyboard chat copilot: copy a message in any chat app, tap Analyze on the Jev keyboard, and it calls TypeSafe Jev \(systemone\) for an 8-way intent Choice and 0-9 risk Score, drafts 2 replies per tone \(12 tones\) via OpenAI/Anthropic-compatible endpoints, re-ranks with Jev, and inserts the pick — never sends\.
 - [Jev Cookbook](https://github.com/nexibeo/jev-cookbook) — Runnable Node recipes that call Jev through OpenRouter's Decisions endpoint for classification jobs such as support-ticket routing, with confidence thresholds and human-review routing kept in code\.
 - [Jev for Chrome](https://github.com/chy4pro/jev-for-chrome) — Unofficial Chrome extension port of Jev Ultrafast in which Jev selects the browser operation and DOM target each step and a separate text model supplies typed text\.
-- [Jev Mac Voice](https://github.com/brudarko/jev-mac-voice) — Electron app for English voice control of macOS through OpenAI Realtime and a native Swift Accessibility bridge, with an optional browser command where TypeSafe Jev Choice, Noul, and Score questions pick the action, target, and completion check for Playwright to execute after policy and approval\.
 - [Jev Social](https://github.com/socai-io/jev-social) — Local Instagram and TikTok research app where TypeSafe Jev selects bounded socai CLI operations from observed state and deterministic code validates confidence before browser execution\.
 - [Jev Trade](https://github.com/aowang-ai/jev-trade) — Live Hyperliquid desk: each tick Jev answers Choice questions for long/short, open/close/hold, and leverage; application code quotes or sends no order\. Documents a dry-run path; a live key sends real orders\.
 - [Jev Ultrafast](https://github.com/browser-use/jev-ultrafast) — Python browser agent using Jev to select operations and DOM targets, with a separate text model for typing\.
